@@ -1,22 +1,22 @@
 @import "tailwindcss";
 
 @theme {
-  --color-yellow-dark: oklch(0.627 0.184 0.097);
-  --color-yellow: oklch(0.755 0.144 0.102);
-  --color-yellow-light: oklch(0.913 0.068 0.097);
+  --color-yellow-dark: #C47F17;
+  --color-yellow: #DBAC2C;
+  --color-yellow-light: #F1E9C9;
 
-  --color-purple-dark: oklch(0.321 0.181 0.311);
-  --color-purple: oklch(0.538 0.177 0.311);
-  --color-purple-light: oklch(0.913 0.068 0.311);
+  --color-purple-dark: #4B2995;
+  --color-purple: #8047F8;
+  --color-purple-light: #EBE5F9;
 
-  --color-base-title: oklch(0.247 0.033 0.019);
-  --color-base-subtitle: oklch(0.321 0.033 0.019);
-  --color-base-text: oklch(0.401 0.033 0.019);
-  --color-base-label: oklch(0.538 0.033 0.019);
-  --color-base-hover: oklch(0.755 0.033 0.019);
+  --color-base-title: #272221;
+  --color-base-subtitle: #403937;
+  --color-base-text: #574F4D;
+  --color-base-label: #8D8686;
+  --color-base-hover: #D7D5D5;
 
-  --color-base-button: oklch(0.821 0.033 0.019);
-  --color-base-input: oklch(0.913 0.033 0.019);
-  --color-base-card: oklch(0.955 0.033 0.019);
-  --color-background: oklch(0.975 0.033 0.019);
+  --color-base-button: #E6E5E5;
+  --color-base-input: #EDEDED;
+  --color-base-card: #F3F2F2;
+  --color-background: #FAFAFA;
 }

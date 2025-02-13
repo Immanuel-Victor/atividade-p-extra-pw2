@@ -11,7 +11,7 @@ export const HeaderPage = () => {
 
     return (
         <nav className="flex flex-row justify-between items-center mt-6 w-4/5 mx-auto">
-            <img src='/images/home/logoIfF.png' alt="Logo" className="w-52" />
+            <img src='/images/home/logo.png' alt="Logo" className="w-52" />
 
             <div className="flex flex-row justify-between items-center gap-1.5">
                 <div className="flex flex-row justify-between items-center bg-[#EBE5F9] p-1 rounded-b-lg">
@@ -20,9 +20,9 @@ export const HeaderPage = () => {
                 </div>
 
                 <div className="relative bg-[#F1E9C9] p-1 rounded-b-lg">
-                    <img src='/icons/shopping-cart-fill.svg' alt="Carrinho" className="w-5 text-[#C47F17] "/>
+                    <img src='/icons/shopping-cart-fill.svg' alt="Carrinho" className="w-5 text-yellow-dark "/>
                     {notification > 0 && (
-                        <div className="absolute top-0 right-0 bg-[#C47F17] rounded-full w-3 h-3 flex justify-center items-center">{notification}</div>
+                        <div className="absolute top-0 right-0 bg-yellow-dark rounded-full w-3 h-3 flex justify-center items-center">{notification}</div>
                     )}
                 </div>
             </div>
